@@ -9,5 +9,5 @@ const translateText = async (text, targetLang) => {
     return text;
   }
 };
-
+// here is the translate function which will be used to translate the text to the target language
 module.exports = translateText;
