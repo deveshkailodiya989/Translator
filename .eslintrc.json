@@ -1,0 +1,15 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "indent": ["error", 2],
+    "semi": ["error", "always"],
+    "no-unused-vars": "warn"
+  }
+}
